@@ -1,0 +1,23 @@
+# Личные данные пользователя: шаблоны, настройки, словари, результаты
+templates_config.json
+ui_settings.json
+*.xlsx
+*.pdf
+!docs/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
